@@ -1,0 +1,52 @@
+.ask-me-btn {
+    background-color: #4CAF50;
+    border: none;
+    color: rgb(255, 255, 255);
+    padding: 8px 12px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 2px;
+    cursor: pointer;
+    border-radius: 4px;
+    line-height: 16px;
+    transition: background-color 0.1s ease-in-out;
+    font-family: "Open Sans", "Arial";
+    font-weight: bold;
+}
+
+.ask-me-btn:hover {
+    background-color: #4CAF50;
+}
+
+.claude-answer {
+    margin-top: 10px;
+    padding: 10px;
+    background-color: #2d2d2d;
+    border-radius: 4px;
+    border-left: 4px solid #4CAF50;
+    color: #ffffff;
+    font-family: "Open Sans", "Arial";
+    line-height: 1.5;
+    font-size: 14px;
+}
+
+.claude-answer.choice-explanation {
+    margin: 8px 0;
+    padding: 8px;
+    background-color: #2d2d2d;
+    border-radius: 4px;
+    border-left: 4px solid #4CAF50;
+    color: #ffffff;
+    font-family: "Open Sans", "Arial";
+    line-height: 1.4;
+    font-size: 13px;
+    width: calc(100% - 32px);  /* 考慮 padding 和 margin */
+    box-sizing: border-box;
+}
+
+.qqsmc-item {
+    position: relative;
+    margin-bottom: 16px;  /* 增加選項之間的間距 */
+}

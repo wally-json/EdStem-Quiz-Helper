@@ -1,0 +1,29 @@
+{
+    "manifest_version": 3,
+    "name": "EdStem Quiz Helper",
+    "version": "1.0",
+    "description": "Helps students study on EdStem by counting quizzes and providing AI-powered explanations for quiz questions using Claude API",
+    "permissions": [
+        "activeTab",
+        "scripting",
+        "storage"
+    ],
+    "host_permissions": [
+        "https://*.edstem.org/*",
+        "https://api.anthropic.com/*"
+    ],
+    "action": {
+        "default_popup": "popup.html"
+    },
+    "options_page": "options.html",
+    "content_scripts": [
+        {
+            "matches": ["https://*.edstem.org/*"],
+            "js": ["content.js"],
+            "css": ["styles.css"]
+        }
+    ],
+    "background": {
+        "service_worker": "background.js"
+    }
+}
