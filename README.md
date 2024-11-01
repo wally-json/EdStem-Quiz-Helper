@@ -1,6 +1,15 @@
 # EdStem Quiz Counter Chrome Extension
 
-A Chrome extension that helps students study on EdStem by counting quizzes and providing AI-powered explanations for quiz questions using Claude API.
+A Chrome Extension that helps students study on EdStem by counting quizzes and providing AI-powered explanations for quiz questions using Claude API.
+
+## ⚠️ Academic Integrity Disclaimer
+
+**IMPORTANT:** This extension is designed as a learning aid to help understand concepts, NOT to provide direct answers or enable cheating:
+
+- The AI explanations focus on explaining concepts and reasoning, never providing direct answers
+- Users are expected to follow their institution's academic integrity policies
+- If you're unsure whether using this tool is permitted, please consult your instructor
+- We strongly discourage any attempts to use this tool for academic dishonesty
 
 ## Features
 
@@ -29,7 +38,15 @@ A Chrome extension that helps students study on EdStem by counting quizzes and p
 2. Click the extension icon to see the quiz count
 3. When viewing a quiz:
    - The extension will automatically detect quiz questions
-   - Click the "Explain" button next to any question to get AI-powered explanations
+   - Click the "Explain" button next to any question to get conceptual explanations
+   - Note: The AI will explain concepts and reasoning, but will not provide direct answers
+
+## How AI Explanations Work
+
+- The AI provides conceptual explanations to help understand the topic
+- Explanations focus on the "why" and "how" rather than specific answers
+- Users are expected to form their own conclusions and answers
+- The tool is meant to supplement learning, not replace it
 
 ## Example
 
@@ -71,6 +88,13 @@ To modify the extension:
 - API keys are stored locally in Chrome storage
 - No data is collected or shared with third parties
 - All API calls are made directly to Claude API
+
+## Ethics and Usage Guidelines
+
+- Use this tool responsibly as a learning aid
+- Do not attempt to use it to circumvent academic integrity policies
+- The AI is programmed to decline requests for direct answers
+- Focus on understanding concepts rather than seeking quick solutions
 
 ## License
 
