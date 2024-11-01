@@ -1,4 +1,4 @@
-# EdStem Quiz Helper Chrome Extension
+# EdStem Quiz AI Helper Chrome Extension
 ![Icon](icon.png)
 A Chrome Extension that helps students study on EdStem by counting quizzes and providing AI-powered explanations for quiz questions using Claude API.
 
