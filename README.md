@@ -31,6 +31,11 @@ A Chrome extension that helps students study on EdStem by counting quizzes and p
    - The extension will automatically detect quiz questions
    - Click the "Explain" button next to any question to get AI-powered explanations
 
+## Example
+
+![Example Image](example.png)
+![Popup Image](popup.png)
+
 ## Files Structure
 
 - `manifest.json` - Extension configuration
