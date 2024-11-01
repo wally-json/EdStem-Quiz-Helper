@@ -12,7 +12,13 @@
         "https://*.edstem.org/*",
         "https://api.anthropic.com/*"
     ],
+    "icons": {
+        "128": "icon.png"
+    },
     "action": {
+        "default_icon": {
+            "128": "icon.png"
+        },
         "default_popup": "popup.html"
     },
     "options_page": "options.html",
